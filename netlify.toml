@@ -5,3 +5,9 @@
 
 [functions]
   directory = "src"
+
+[dev]
+  targetPort = 3000 # The port for your application server, framework or site generator
+  port = 8080 # The port that the netlify dev will be accessible on
+  autoLaunch = false
+  staticServerPort = 3000
